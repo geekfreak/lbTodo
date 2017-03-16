@@ -11,4 +11,4 @@ Some of the exciting groundbreaking-feature of this buzzword compliant app are
 
 Why would you want to use this app?
 
-Most user of this app have the overwhelming need to store list of item they need to be done in a readily accessible and readable format.
+Most users of this app have the overwhelming need to store lists of items they need to be done in a readily accessible and readable format.
