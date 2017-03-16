@@ -1,0 +1,44 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "max-len": ["error", 132],
+    "no-param-reassign": ["warn", { "props": false }],
+    "arrow-body-style": 0,
+    "prefer-arrow-callback": 0,
+    "func-names": 0,
+    "react/jsx-no-bind": 0,
+    "react/jsx-uses-react": 1,
+    "react/prefer-stateless-function": 0,
+    "import/no-extraneous-dependencies": ["warn", {"devDependencies": ["**/*.spec.js"]}],
+    "no-multi-spaces": ["error", {
+      "exceptions": {
+        "VariableDeclarator": true,
+        "ImportDeclaration": true,
+      }
+    }],
+    "key-spacing": ["error", {
+        "multiLine": {
+            "beforeColon": false,
+            "afterColon": true
+        },
+        "align": {
+            "beforeColon": true,
+            "afterColon": true,
+            "on": "colon"
+        }
+    }]
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "globals": {
+    "$": true,
+    "document": true,
+    "fetch": true,
+    "describe": true,
+    "it": true
+  }
+}
