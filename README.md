@@ -8,7 +8,7 @@ git clone git@github.com:geekfreak/lbTodo.git
 cd lbTodo
 npm install
 npm start
-```￼
+```
 
 #### Create a todo list web application
 - All project code should be in a Github repo and shared with us once complete
